@@ -1,20 +1,17 @@
 # MOEX Data Loader
 Asynchronous Python module for downloading historical price data from the Moscow Exchange (MOEX) API. Returns data as a ready-to-use Pandas DataFrame with a datetime index.
 
+## Project Overview
+
+- `src/loader.py` — asynchronous loader for historical MOEX market data.
+- `notebooks/demo.ipynb` — example of using the loader in Jupyter Notebook.
+
 ## Features
 - Asynchronous data loading using aiohttp
 - Historical data from the MOEX ISS API
 - Automatic ticker normalization
 - Validation of API responses
 - Ready-to-use pandas.DataFrame
-
-## Project Structure
-moex-data-loader/
-├── notebooks/
-├── src/
-│   └── loader.py
-├── requirements.txt
-└── README.md
 
 ## Installation
 git clone ...
